@@ -4,7 +4,9 @@
 
 
 /* About-Us */
-
+main{
+    z-index: 0;
+}
 .contact-us h1{
     text-align: center;
     font-family: Montserrat;
