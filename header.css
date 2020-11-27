@@ -37,6 +37,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px 120px;
+  box-shadow: 0px 4px 6px 0px rgba(240,240,240,0.6);
   /* flex-wrap: wrap; */
 }
 
@@ -189,8 +190,8 @@ footer {
     margin: 10px 7px 0 0;
     color: var(--color-1);
     text-align: center;
-    line-height: 42px;
-    font-size: 24px;
+    line-height: 40px;
+    font-size: 20px;
 }
 
 .social-media i:hover {
@@ -342,6 +343,12 @@ footer {
     .maps {
       margin-top: 20px;
     }
+    .social-media i{
+      width: 20px; 
+      height: 20px;
+      /* line-height: 32px; */
+      font-size: 16px;
+  }
  }
 }
 
