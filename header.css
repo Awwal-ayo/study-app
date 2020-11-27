@@ -16,10 +16,11 @@
 header {
     background-color: var(--color-4);
     position: fixed;
-    top: 0%;
+    top: 0;
     left: 0;
     right: 0;
     z-index: 2;
+    /* width: 100vh; */
   }
 
 a,
@@ -94,6 +95,7 @@ footer {
 }
 
 .footer-container {
+  width: 100%;
     display: grid;
     grid-template-areas: "container-1 maps container-2";
     grid-template-columns: 2fr 1fr 2.5fr;
