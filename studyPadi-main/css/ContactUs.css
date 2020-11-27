@@ -1,4 +1,12 @@
+body {
+    height: 100vh;
+    /* overflow: scroll; */
+}
+
 /* Contact-Us */
+main{
+    z-index: 0;
+}
 
 .contact-us h1{
     text-align: center;
